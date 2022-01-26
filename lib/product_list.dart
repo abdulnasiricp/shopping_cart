@@ -32,7 +32,13 @@ class _ProductListScreenState extends State<ProductListScreen> {
               itemBuilder: (context, index) {
                 return Card(
                     child: Column(
-                  children: [],
+                  children: [
+                    Row(
+                      children: [
+                        Text(index.toString())
+                      ],
+                    )
+                  ],
                 ));
               },
             ),
