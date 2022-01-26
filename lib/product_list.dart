@@ -1,3 +1,4 @@
+import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
 
 class ProductListScreen extends StatefulWidget {
@@ -11,6 +12,12 @@ class _ProductListScreenState extends State<ProductListScreen> {
         appBar: AppBar(
       title: Text('product List'),
       centerTitle: true,
+      actions: [
+        Badge(badgeContent: Text('0'), animationDuration: Duration(milliseconds: 300), child: Icon(Icons.shopping_bag_outlined)),
+        SizedBox(
+          width: 20.0,
+        )
+      ],
     ));
   }
 }
