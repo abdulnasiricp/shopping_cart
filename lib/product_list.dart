@@ -89,7 +89,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
                           children: [
                             Text(
                               productName[index].toString(),
-                              style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                              style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                             ),
                             SizedBox(
                               height: 5,
