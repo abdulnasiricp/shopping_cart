@@ -116,7 +116,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
                                 ),
                               ),
                               SizedBox(
-                                height: 3,
+                                height: 5,
                               ),
                             ],
                           ),
