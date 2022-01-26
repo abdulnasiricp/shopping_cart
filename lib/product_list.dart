@@ -13,7 +13,13 @@ class _ProductListScreenState extends State<ProductListScreen> {
       title: Text('product List'),
       centerTitle: true,
       actions: [
-        Badge(badgeContent: Text('0'), animationDuration: Duration(milliseconds: 200), child: Icon(Icons.shopping_bag_outlined)),
+        Center(
+          child: Badge(
+            badgeContent: Text('0'),
+            animationDuration: Duration(milliseconds: 300),
+            child: Icon(Icons.shopping_bag_outlined),
+          ),
+        ),
         SizedBox(
           width: 20.0,
         )
