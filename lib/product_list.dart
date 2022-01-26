@@ -114,7 +114,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
                                     style: TextStyle(color: Colors.white),
                                   )),
                                 ),
-                              )
+                              ),
                               SizedBox(
                                 height: 3,
                               ),
