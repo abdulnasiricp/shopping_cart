@@ -95,7 +95,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
                               height: 5,
                             ),
                             Text(
-                              productUnit[index].toString() + " " + r"$" + productPrice[index].toString(),
+                              productUnit[index].toString() + " " + r"Rs." + productPrice[index].toString(),
                               style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
                             ),
                             Container(
