@@ -100,7 +100,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
                                 style: TextStyle(fontSize: 15, fontWeight: FontWeight.w500),
                               ),
                               SizedBox(
-                                height: 5,
+                                height: 3,
                               ),
                               Align(
                                 alignment: Alignment.centerRight,
