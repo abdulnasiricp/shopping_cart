@@ -15,7 +15,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
       actions: [
         Badge(badgeContent: Text('0'), animationDuration: Duration(milliseconds: 300), child: Icon(Icons.shopping_bag_outlined)),
         SizedBox(
-          width: 20.0,
+          width: 10.0,
         )
       ],
     ));
