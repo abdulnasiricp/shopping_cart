@@ -71,13 +71,16 @@ class _ProductListScreenState extends State<ProductListScreen> {
                     child: Column(
                   children: [
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisSize: MainAxisSize.max,
                       children: [
                         Image(
                           height: 100,
                           width: 100,
                           image: NetworkImage(productImage[index].toString()),
                         ),
-                        Text(index.toString())
+                        Text(productName[index].toString())
                       ],
                     )
                   ],
