@@ -72,6 +72,11 @@ class _ProductListScreenState extends State<ProductListScreen> {
                   children: [
                     Row(
                       children: [
+                        Image(
+                          height: 100,
+                          width: 100,
+                          image: NetworkImage(productImage[index].toString()),
+                        ),
                         Text(index.toString())
                       ],
                     )
