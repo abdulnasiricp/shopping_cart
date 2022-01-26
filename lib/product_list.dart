@@ -95,9 +95,19 @@ class _ProductListScreenState extends State<ProductListScreen> {
                               height: 5,
                             ),
                             Text(
-                              productUnit[index].toString() + productPrice[index].toString(),
+                              productUnit[index].toString() + " " + r"$" + productPrice[index].toString(),
                               style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
                             ),
+                            Container(
+                              height: 35,
+                              width: 100,
+                              decoration: BoxDecoration(color: Colors.green, borderRadius: BorderRadius.circular(5)),
+                              child: Center(
+                                  child: Text(
+                                'Add to Cart',
+                                style: TextStyle(color: Colors.white),
+                              )),
+                            )
                           ],
                         ),
                       ],
