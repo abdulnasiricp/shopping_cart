@@ -80,7 +80,26 @@ class _ProductListScreenState extends State<ProductListScreen> {
                           width: 100,
                           image: NetworkImage(productImage[index].toString()),
                         ),
-                        Text(productName[index].toString())
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Column(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              productName[index].toString(),
+                              style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
+                            Text(
+                              productUnit[index].toString() + productPrice[index].toString(),
+                              style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                            ),
+                          ],
+                        ),
                       ],
                     )
                   ],
