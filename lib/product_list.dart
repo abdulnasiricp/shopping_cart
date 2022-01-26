@@ -15,7 +15,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
       actions: [
         Center(
           child: Badge(
-            badgeContent: Text('0'),
+            badgeContent: Text('0', style: TextStyle(color: Colors.white)),
             animationDuration: Duration(milliseconds: 300),
             child: Icon(Icons.shopping_bag_outlined),
           ),
